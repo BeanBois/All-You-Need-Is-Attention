@@ -1,4 +1,4 @@
-from utils import MultiHeadAttentionBlock, FeedForwardBlock, positional_encoder, LearnedPositionalEncodings
+from .utils import MultiHeadAttentionBlock, FeedForwardBlock, positional_encoder, LearnedPositionalEncodings
 
 from torch.nn import LayerNorm, ModuleList, Module
 
